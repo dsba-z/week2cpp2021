@@ -13,10 +13,21 @@
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
-
+#include <iostream>
+#include <cstring>
 int main()
 {
-    // TODO: input your code here
+    char cString1[] = "abc";
+    size_t idx = 2;
+    
+    char characterAtIndex = cString1[idx];
+    
+    while () {
+        
+    }
+    // compare to this
+    std::cout << strlen(cString1) << "\n";
+    
 
     return 0;
 }

@@ -18,6 +18,22 @@
 
 int main()
 {
-    // TODO: input your code here
+    char symbol = '!';
+    
+    char cString1[] = "abc";
+//    char cString2[10];
+//    char cString3[20] = "abcde";
+    
+    
+    std::string cppString = "abc";
+    std::string twoThingsTogether = cppString + "second thing";
+    std::cin >> cppString;
+    std::cout << twoThingsTogether;
+    
+    std::cin >> cString1;
+    std::cout << cString1;
+    
+    
+    
     return 0;
 }
