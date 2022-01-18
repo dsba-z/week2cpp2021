@@ -12,10 +12,17 @@
 /// literal (implement strlen() ).
 ///
 ////////////////////////////////////////////////////////////////////////////////
-
-
+#include <string>
+#include <iostream>
+#include <cstring>
 int main()
 {
+    char cString[] = "abc";
+
+    std::cout << strlen(cString);
+//    while () {
+        
+//    }
     // TODO: input your code here
 
     return 0;

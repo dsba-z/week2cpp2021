@@ -18,6 +18,20 @@
 
 int main()
 {
-    // TODO: input your code here
+    char b = '!';
+    char cString[] = "abc";
+    char cString2[10];
+    char cString3[20] = "abcde";
+    
+    size_t a = 5;
+
+    std::string cppString = "abc";
+    
+    std::cin >> cppString;
+    std::cout << cppString + "123";
+    
+    std::cin >> cString;
+    std::cout << cString;
+    
     return 0;
 }

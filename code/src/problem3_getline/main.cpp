@@ -14,10 +14,19 @@
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
+#include <string>
+#include <iostream>
+
 
 int main()
 {
-    // TODO: input your code here
+    char cBuffer[100];
+    std::cin.getline(cBuffer, 100);
+    char firstCharacter = cBuffer[0];
+    
+    std::string cppBuffer;
+    std::getline(std::cin, cppBuffer);
+    cppBuffer.empty();
 
     return 0;
 }
