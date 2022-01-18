@@ -18,6 +18,17 @@
 
 int main()
 {
+    char cString[] = "abc";
+    
+    std::string cppString = "abc";
+    
+    std::cin >> cppString;
+    std::cout << cppString + "123";
+
+    
+    std::cin >> cString;
+    std::cout << cString;
+    
     // TODO: input your code here
     return 0;
 }

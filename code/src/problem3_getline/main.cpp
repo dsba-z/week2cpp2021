@@ -15,9 +15,21 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 
+#include <string>
+#include <iostream>
+
+
 int main()
 {
-    // TODO: input your code here
+    std::string cppBuffer;
+    
+    char cBuffer[100];
+    std::cin.getline(cBuffer, 100);
+    cBuffer[0] == '\0';
+    
+    std::getline(std::cin, cppBuffer);
+    cppBuffer.empty();  // boolean value
+    std::cout << cppBuffer;
 
     return 0;
 }
