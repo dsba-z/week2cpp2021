@@ -11,11 +11,14 @@
 /// Print the “printable part” of the ASCII table using tabs for aligning.
 ///
 ////////////////////////////////////////////////////////////////////////////////
+#include <iostream> 
+#include <cmath> 
+#include <iomanip> 
+#include <fstream> 
+#include <string> 
+ 
+int main() 
+{ 
 
-
-int main()
-{
-    // TODO: input your code here
-
-    return 0;
+     
 }

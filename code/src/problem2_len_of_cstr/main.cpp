@@ -22,9 +22,9 @@ int main()
     char cString[] = "abc";
     char firstSymbol = cString[0];
     
-    while (condition) {
-        // loop code
-    }
+//    while (condition) {
+//        // loop code
+//    }
     
     // get the same answer using a loop
     std::cout << strlen(cString);

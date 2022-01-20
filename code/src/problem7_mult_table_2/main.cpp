@@ -12,10 +12,25 @@
 /// multiplication table aligning output at tab positions.
 ///
 ////////////////////////////////////////////////////////////////////////////////
-
+#include <iostream>
 
 int main()
 {
-    // TODO: input your code here
+    
+    char cBuffer[100];
+    
+    
+
+    
+    int array[20000];
+    int arraySize;
+    int element;
+    std::cin >> arraySize;
+    
+    for (int i = 0; i < arraySize; ++i) {
+        std::cin >> element;
+        array[i] = element;
+    }
+    
     return 0;
 }

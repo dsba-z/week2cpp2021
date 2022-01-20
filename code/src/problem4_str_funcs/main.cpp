@@ -15,10 +15,22 @@
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
-
+#include <cstring>
+#include <iostream>
 int main()
 {
-    // TODO: input your code here
+    char a[100] = "asd";
+    char b[100] = "qwe";
+    
+    int result = strcmp(a, b);
+
+//    strcmp(a, b);
+//    a.size();
+//    a.length();
+//    a < b;
+//    a > b;
+//    a == b;
+//    a = b;
 
     return 0;
 }

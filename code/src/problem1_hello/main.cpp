@@ -26,8 +26,8 @@ int main()
     std::cout << cppString + "123";
 
     
-    std::cin >> cString;
-    std::cout << cString;
+//    std::cin >> cString;
+//    std::cout << cString;
     
     // TODO: input your code here
     return 0;

@@ -12,11 +12,33 @@
 /// repeat a solution multiple times (with using the “do..while” loop).
 ///
 ////////////////////////////////////////////////////////////////////////////////
-
+#include "iostream"
+#include "string"
+#include <cstring>
 
 int main()
 {
-    // TODO: input your code here
+    std::string cString1;
+    std::cin >> cString1;
+
+    std::string cString2;
+    std::cin >> cString2;
+
+    std::cout << cString1.size() << "\n";
+    std::cout << cString1.length() << "\n";
+
+    std::cout << cString2.size() << "\n";
+    std::cout << cString2.length() << "\n";
+
+    std::cout << (cString1 < cString2) << "\n";
+    std::cout << (cString1 = cString2) << "\n";
+    std::cout << (cString1 > cString2) << "\n";
+    std::cout << (cString1 + cString2) << "\n";
+
+    char charText[] = "hello";
+    char charTextTwo[] = "world";
+    std::cout << strlen(charText);
+    std::cout << strcmp(charText, charTextTwo);
 
     return 0;
 }
