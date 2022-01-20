@@ -19,6 +19,11 @@
  
 int main() 
 { 
-
+//    0100 0011
+    
+    char symbol = 33;
+    std::cout << symbol + 1;
+    symbol++;
+    std::cout << symbol<< std::endl;
      
 }
